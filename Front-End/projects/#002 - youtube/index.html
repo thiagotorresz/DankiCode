@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube Clone</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#">
+            <img src="img/logo.png" alt="Youtube Logo" class="youtube-logo">
+        </a>
+        <form class="search-bar">
+            <input class="search-input" type="search" placeholder="Search" aria-label="Search"/>
+            <button type="submit" class="search-btn">
+                <img src="img/magnify.svg">
+            </button>
+        </form>
+
+        <div class="menu-icons">
+
+            <a href="#">
+                <img src="img/apps.svg" alt="Apps">
+            </a>
+
+            <a href="#">
+                <img src="img/bell.svg" alt="Notification">
+            </a>
+            
+            <a href="#">
+                <img class="menu-channel-icon" src="https://cdn-icons-png.freepik.com/512/8742/8742495.png" alt="Your Channel">
+            </a>
+        </div><!--menu-icons-->
+    </header>
+
+    <div class="categories">
+        <section class="category-section">
+            <button class="category active">Tudo</button>
+            <button class="category">Games</button>
+            <button class="category">Programação</button>
+            <button class="category">Música</button>
+            <button class="category">Documentários</button>
+            <button class="category">Filmes</button>
+            <button class="category">LiveStreams</button>
+            <button class="category">Desenhos</button>
+            <button class="category">Vlogs</button>
+            <button class="category">Outros</button>
+        </section><!--category-section-->
+    </div><!--categories-->
+
+    <div class="videos">
+        <section class="video-section">
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="30:09">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/bUN5iUj_mQQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCd4vFehEceudhVZupK1OiB_-7p8Q" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/HRwQ8CrNB4xEkyMvx2071HBIpzHHsmZOm9_SsLCkBv0hGHKR25eh-dBmiM_OFBCcbBvGj7Dl=s900-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">QUEM É O ENDIVIDADO?</a>
+                    <a href="#" class="video-channel-name">Aqueles Caras</a>
+
+                    <div class="video-metadata">
+                        <span>894k views</span>
+                        •
+                        <span>4 days ago</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:02">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/Ldl_CvMGmEA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAnEjQu2ZhPX5Ix1DXjHpaiUFyvgA" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/ytc/AIdro_m-8zZRJBWMwnaHcJgQv2IRr0dLcqCv1yKcQHgSEZ26jHw=s900-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">TOP 10 CURSOS GRATUITOS 2024</a>
+                    <a href="#" class="video-channel-name">Curso em Vídeo</a>
+
+                    <div class="video-metadata">
+                        <span>647k views</span>
+                        •
+                        <span>10 months ago</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="4:09">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/164qnLceCYA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDaj2fm6IEhxvPcc0Wcqne_GwyaWQ" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://pbs.twimg.com/profile_images/1689992478638608384/u9Uu-xfX_400x400.jpg" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">ATLÉTICO-MG 3 X 2 FORTALEZA</a>
+                    <a href="#" class="video-channel-name">ge</a>
+
+                    <div class="video-metadata">
+                        <span>486k views</span>
+                        •
+                        <span>2 years ago</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="30:07">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/Ws3Y2Rm-pMk/maxresdefault.jpg" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/HRwQ8CrNB4xEkyMvx2071HBIpzHHsmZOm9_SsLCkBv0hGHKR25eh-dBmiM_OFBCcbBvGj7Dl=s900-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">TRABALHAMOS NO OUTBACK POR UM DIA!</a>
+                    <a href="#" class="video-channel-name">Aqueles Caras</a>
+
+                    <div class="video-metadata">
+                        <span>4.1 M views</span>
+                        •
+                        <span>1 month ago</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="30:47">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/G40p0j4QaZg/mqdefault.jpg" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/HRwQ8CrNB4xEkyMvx2071HBIpzHHsmZOm9_SsLCkBv0hGHKR25eh-dBmiM_OFBCcbBvGj7Dl=s900-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">QUEM É O POLICIAL?</a>
+                    <a href="#" class="video-channel-name">Aqueles Caras</a>
+
+                    <div class="video-metadata">
+                        <span>1.5 M views</span>
+                        •
+                        <span>3 weeks ago</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/hgFQgtsYG30/maxresdefault.jpg" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://media.licdn.com/dms/image/v2/C5603AQHlgpbXi82XcA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1610358139160?e=2147483647&v=beta&t=KK-Ovi9vVV3-vbSBt_1Yrx-u-DRIGkkv6rYW3EXDvZw" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">COMO CRIAR UM CRUD COM NODEJS?</a>
+                    <a href="#" class="video-channel-name">Gabriel Gouvea</a>
+
+                    <div class="video-metadata">
+                        <span>100k views</span>
+                        •
+                        <span>3 months ago</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+        </section><!--video-section-->
+    </div><!--videos-->
+</body>
+</html>

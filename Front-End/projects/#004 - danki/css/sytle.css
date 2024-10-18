@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #212343;
+    padding: 20px;
+}
+
+.bg{
+    background-image: url("../images/header_bg.png");
+    background-color: #241535;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    width: 100%;
+}
+
+.bg ul{
+    padding: 100px;
+    background-color: #241535b4;
+    
+}
+
+.bg li {
+    color: white;
+    width: 30vw;
+    
+}
