@@ -62,3 +62,45 @@ header{
 .banner-form > form{
 	display: block;
 }
+
+.form-container{
+	float: right;
+	height: 95%;
+	width: 30%;
+	margin: 1.8%;
+	background-color: rgba(255, 255, 255, 0.562);
+}
+
+.form-container h2{
+	padding: 30px 20px;
+	font-size: 18px;
+	font-weight: lighter;
+	background-color: #fcfcfcde;
+}
+
+.form-container form label, p{
+	display: block;
+	margin: 20px 10px 5px 10px;
+	margin-top: 20px;
+	font-size: 15px;
+	color: #525252;
+}
+
+.form-container form input{
+	display: block;
+	font-size: 18px;
+	width: 95%;
+	padding: 13px;
+	margin: 0 auto;
+}
+
+.form-container form input.btn{
+	padding: 0;
+	padding: 13px;
+	margin-top: 50px;
+	background-color: #033C50;
+	color: white;
+	border: 0;
+	font-size: 25px;
+	cursor: pointer;
+}

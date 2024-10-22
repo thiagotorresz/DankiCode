@@ -26,16 +26,23 @@
 
     <div class="container">
         <div class="banner-form">
-            <div class="banner"></div>
-            <form action="">
-                <h2>PODE ACREDITAR, POR DENTRO É AINDA MAIS BONITO</h2>
-                <label for="name">*Nome completo</label>
-                <input type="text" name="name" id="name">
-                <label for="email">*E-mail</label>
-                <input type="email" name="email" id="email">
-                <label for="number">*Fone</label>
-                <input type="tel" name="number" id="number">
-            </form>
+            <div class="banner">
+                <div class="form-container">
+                    <h2>PODE ACREDITAR, POR DENTRO É AINDA MAIS BONITO.</h2>
+                    <form action="GET">
+                        <label for="name">*Nome completo:</label>
+                        <input type="text" name="name" id="name" placeholder="Digite o seu Nome">
+                        <label for="email">*E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="Digite o seu E-mail">
+                        <label for="number">*Fone:</label>
+                        <input type="tel" name="number" id="number" placeholder="Digite o seu Telefone">
+
+                        <input type="submit" class="btn" value="ENVIAR">
+
+                        <p>* Campos obrigatórios</p>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </body>
