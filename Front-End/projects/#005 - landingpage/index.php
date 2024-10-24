@@ -29,7 +29,7 @@
         <div class="banner-form">
             <div class="banner">
                 <div class="form-container">
-                    <h2>PODE ACREDITAR, POR DENTRO É AINDA MAIS BONITO.</h2>
+                    <h2><span>PODE ACREDITAR, POR DENTRO É AINDA MAIS BONITO.</span></h2>
                     <form action="">
                         <label for="name">*Nome completo:</label>
                         <input type="text" name="name" id="name" placeholder="Digite o seu Nome">
@@ -44,6 +44,7 @@
                     </form>
                 </div>
                 <i class="bi bi-arrow-down-circle-fill"></i>
+                <div class="clear"></div>
             </div>
         </div>
     </div>

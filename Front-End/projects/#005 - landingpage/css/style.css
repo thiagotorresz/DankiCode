@@ -35,17 +35,6 @@ header{
 	margin-top: 10px;
 }
 
-@media screen and (max-width: 600px) {
-	.img02{
-		display: none;
-	}
-
-	.img01{
-		float: none;
-		text-align: center;
-	}
-}
-
 /* banner e formulário */
 
 .banner{
@@ -74,6 +63,9 @@ header{
 	font-size: 18px;
 	font-weight: lighter;
 	background-color: #fcfcfcc9;
+	margin-bottom: 30px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 400;
 }
 
 .form-container form label, p{
@@ -89,7 +81,7 @@ header{
 	font-size: 18px;
 	width: 95%;
 	padding: 3%;
-	margin: 0 auto;
+	margin: 0 auto 20px auto;
 }
 
 .form-container form input.btn{
@@ -132,4 +124,37 @@ header{
 	font-size: 22px;
 	font-weight: lighter;
 	margin-top: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+	.img02{
+		display: none;
+	}
+
+	.img01{
+		float: none;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 966px) {
+	.form-container{
+		float: none;
+		height: 90%;
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.form-container span{
+		display: none;
+	}
+
+	.form-container h2::after{
+		content: 'BEM VINDO AO PARAÍSO';
+	}
+
+	.banner i{
+		display: none;
+	}
 }
