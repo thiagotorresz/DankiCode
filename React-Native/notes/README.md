@@ -1,50 +1,36 @@
-# Welcome to your Expo app 👋
+📒 App de Anotações - React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Um aplicativo simples de anotações desenvolvido com React Native, Expo e TypeScript. Permite criar, editar e excluir anotações de forma rápida e intuitiva.
 
-## Get started
+📸 Capturas de Tela
 
-1. Install dependencies
+![Tela inicial](https://media.licdn.com/dms/image/v2/D4D22AQGJ32wMkdnp5Q/feedshare-shrink_2048_1536/B4DZS3xc3WH0Aw-/0/1738249982234?e=1742428800&v=beta&t=eFuqObgHE1NcOS67El1nRyQkA52DJB5apzAtYzfHQqY)
 
-   ```bash
-   npm install
-   ```
+🚀 Tecnologias Utilizadas
 
-2. Start the app
+React Native
 
-   ```bash
-    npx expo start
-   ```
+Expo
 
-In the output, you'll find options to open the app in a
+TypeScript
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+AsyncStorage (armazenamento local)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+📌 Funcionalidades
 
-When you're ready, run:
+✅ Criar, editar e excluir notas
+✅ Interface leve e responsiva
+✅ Armazena as notas localmente usando AsyncStorage
 
-```bash
-npm run reset-project
-```
+🛠 Melhorias Futuras
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Sincronização com um backend
 
-## Learn more
+Opção de categorias para organização das notas
 
-To learn more about developing your project with Expo, look at the following resources:
+Tema escuro
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+📄 Licença
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Este projeto está sob a licença MIT. Sinta-se à vontade para contribuir! 😉
